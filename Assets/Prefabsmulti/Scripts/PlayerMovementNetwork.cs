@@ -29,21 +29,23 @@ public class PlayerMovementNetwork : MonoBehaviour
 
     void BasicMovement()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
-            Debug.Log("We're moving forward");
-            myCC.Move(transform.forward * Time.deltaTime * movementSpeed);
+            myCC.Move(transform.up * Time.deltaTime * movementSpeed);
         }
         if (Input.GetKey(KeyCode.A))
         {
+            Debug.Log("Gauche");
             myCC.Move(-transform.right * Time.deltaTime * movementSpeed);
         }
-        if (Input.GetKey(KeyCode.S))
+        /*if (Input.GetKey(KeyCode.S))
         {
+            Debug.Log("Bas");
             myCC.Move(-transform.forward * Time.deltaTime * movementSpeed);
-        }
+        }*/
         if (Input.GetKey(KeyCode.D))
         {
+            Debug.Log("Droite");
             myCC.Move(transform.right * Time.deltaTime * movementSpeed);
         }
     }

@@ -54,8 +54,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Menu.unity:
     - Class: 1
@@ -81,6 +79,8 @@ ScriptsOnlyBuild:
     - Class: 54
       Script: {instanceID: 0}
     - Class: 62
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -115,51 +115,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 11622}
     - Class: 114
-      Script: {instanceID: 12188}
+      Script: {instanceID: 12110}
     - Class: 114
-      Script: {instanceID: 12468}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12558}
+      Script: {instanceID: 12200}
     - Class: 114
-      Script: {instanceID: 12706}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12766}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 12484}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 12576}
     - Class: 114
-      Script: {instanceID: 13226}
+      Script: {instanceID: 12726}
     - Class: 114
-      Script: {instanceID: 13236}
+      Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13398}
+      Script: {instanceID: 12978}
     - Class: 114
-      Script: {instanceID: 13822}
+      Script: {instanceID: 13128}
     - Class: 114
-      Script: {instanceID: 13830}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 13940}
+      Script: {instanceID: 13248}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 14008}
+      Script: {instanceID: 13420}
     - Class: 114
-      Script: {instanceID: 22306}
+      Script: {instanceID: 13742}
     - Class: 114
-      Script: {instanceID: 22474}
+      Script: {instanceID: 13850}
     - Class: 114
-      Script: {instanceID: 22486}
+      Script: {instanceID: 13858}
     - Class: 114
-      Script: {instanceID: 22496}
+      Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 30876}
+      Script: {instanceID: 13970}
     - Class: 114
-      Script: {instanceID: 30878}
+      Script: {instanceID: 14004}
     - Class: 114
-      Script: {instanceID: 34918}
+      Script: {instanceID: 14038}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -228,15 +228,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11414}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 12110}
     - Class: 114
-      Script: {instanceID: 13148}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13940}
+      Script: {instanceID: 13604}
     - Class: 114
-      Script: {instanceID: 14008}
+      Script: {instanceID: 13970}
     - Class: 114
-      Script: {instanceID: 30158}
+      Script: {instanceID: 14038}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -486,6 +486,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 3da111bbd0565fd47f2bca5d92fcb8a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DelayStartWaitingRoomController
+  - hash:
+      serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -510,6 +516,12 @@ ScriptsOnlyBuild:
     className: CountOfPlayersOnMasterProperty
   - hash:
       serializedVersion: 2
+      Hash: 2cc75e7496f5de8be4d52b3f024467c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuickStartRoomController
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -526,6 +538,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Photon.Realtime.Demo
     className: ConnectAndJoinRandomLb
+  - hash:
+      serializedVersion: 2
+      Hash: 89942e91197c89ae78576c155c8442bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PhotonRoom
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -610,6 +628,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
     className: Block
+  - hash:
+      serializedVersion: 2
+      Hash: c8165e521207b5e4133abf165fd1ab5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuickStartLobbyController
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -709,6 +733,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: PunPlayerScores
@@ -750,6 +780,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: d27efe7cc3ec3a1911bc58d4a1e0d7b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AvatarSetup
+  - hash:
+      serializedVersion: 2
       Hash: 117e94af12d2e42e9e17b73f2602978e
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
@@ -786,6 +822,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: f330e8e314b68adb3a331d6880acc122
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovementNetwork
+  - hash:
+      serializedVersion: 2
       Hash: f8f5c34557f4103b6547d8f956cec6ea
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer
@@ -808,6 +850,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkLobbyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 63a4f4f029e179b00b6cb79637de126b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PhotonLobby
   - hash:
       serializedVersion: 2
       Hash: 5887ef1bc706b22b773d253fd443ceef
@@ -948,6 +996,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 69f55f1bcc23c12169f2d66d309f2356
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DelayStartRoomController
+  - hash:
+      serializedVersion: 2
       Hash: 9ee4e69a1287bfe259ceea86d29c1920
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1000,6 +1054,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: OnClickDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameSetupController
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -1212,6 +1272,12 @@ ScriptsOnlyBuild:
     className: FriendItem
   - hash:
       serializedVersion: 2
+      Hash: 72e7ff3fee0dfef0fafec64a24015b94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PhotonPlayer
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1368,6 +1434,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 87a5e8f18843ccbb874f452411964b1a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DelayStartLobbyController
+  - hash:
+      serializedVersion: 2
       Hash: 48804c7edfd2998cdab1bf456d8dbfd0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1422,6 +1494,12 @@ ScriptsOnlyBuild:
     className: IsConnectedAndReadyProperty
   - hash:
       serializedVersion: 2
+      Hash: ec9cfd716e8b048ce509c8dd26bd2705
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameSetup
+  - hash:
+      serializedVersion: 2
       Hash: 1dcb82730d983b77cec736c6ef19f814
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -1474,6 +1552,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomMasterClientIdProperty
+  - hash:
+      serializedVersion: 2
+      Hash: a0a1fb37f127c81d4be79dbb4b1bae1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerInfo
   - hash:
       serializedVersion: 2
       Hash: e90137b14c2644736d5abeafc2b26c9a
@@ -1582,6 +1666,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuController
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
@@ -1726,98 +1816,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: a0a1fb37f127c81d4be79dbb4b1bae1c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerInfo
-  - hash:
-      serializedVersion: 2
-      Hash: 63a4f4f029e179b00b6cb79637de126b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PhotonLobby
-  - hash:
-      serializedVersion: 2
-      Hash: 89942e91197c89ae78576c155c8442bd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PhotonRoom
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuController
-  - hash:
-      serializedVersion: 2
-      Hash: 3da111bbd0565fd47f2bca5d92fcb8a6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DelayStartWaitingRoomController
-  - hash:
-      serializedVersion: 2
-      Hash: 2cc75e7496f5de8be4d52b3f024467c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuickStartRoomController
-  - hash:
-      serializedVersion: 2
-      Hash: c8165e521207b5e4133abf165fd1ab5e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuickStartLobbyController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NetworkController
-  - hash:
-      serializedVersion: 2
-      Hash: 69f55f1bcc23c12169f2d66d309f2356
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DelayStartRoomController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameSetupController
-  - hash:
-      serializedVersion: 2
-      Hash: 87a5e8f18843ccbb874f452411964b1a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DelayStartLobbyController
-  - hash:
-      serializedVersion: 2
-      Hash: ec9cfd716e8b048ce509c8dd26bd2705
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameSetup
-  - hash:
-      serializedVersion: 2
-      Hash: d27efe7cc3ec3a1911bc58d4a1e0d7b8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AvatarSetup
-  - hash:
-      serializedVersion: 2
-      Hash: 72e7ff3fee0dfef0fafec64a24015b94
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PhotonPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: f330e8e314b68adb3a331d6880acc122
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMovementNetwork
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Rock_Paper_Scissors/premier test/Build&Run/premier test.exe
+  playerPath: D:/Github Repositories/KEEPWORKING/Build/premier test.exe
