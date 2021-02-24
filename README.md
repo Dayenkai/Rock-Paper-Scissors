@@ -9,5 +9,7 @@ If you wish to take a look without diving, we put a little teaser on Youtube abo
 # Commands (local multiplayer)
 
 -> Player 1 : W-A-S-D for movement, Q for attack, E for defense
+
 -> Player 2 : I-J-K-L for movement, U for attack, O for defense
--> Player 3 : Up-Left-Down-Right for movement, Left Ctrl for attack, Left Shift for defense
+
+-> Player 3 : Up-Left-Down-Right for movement, Right Ctrl for attack, Right Shift for defense
